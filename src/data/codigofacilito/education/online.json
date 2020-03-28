@@ -1,0 +1,15 @@
+{
+    "slug": "online",
+    "title": "Cursos en linea",
+    "description": "Cursos finalizados en plataformas de educación en internet",
+    "items": [
+        {
+            "name": "Gatsby",
+            "url": "https://codigofacilito.com/cursos/sitio-persional-gatsby"
+        },
+        {
+            "name": "Javascript",
+            "url": "https://codigofacilito.com/cursos/javascript"
+        }
+    ]
+}

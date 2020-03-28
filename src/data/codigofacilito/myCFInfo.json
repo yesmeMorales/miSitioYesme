@@ -1,0 +1,53 @@
+{
+    "data": {
+        "email": "moralesyesme@gmail.com",
+        "username": "moralesyesme",
+        "certificates": [],
+        "articles": [],
+        "courses": [
+            {
+                "title": "Workshop to integrate Google services with React",
+                "progress": "100.0", "url": "http://codigofacilito.com/courses/react-google-apis"
+            },
+            {
+                "title": "Course for integrate Redux with React ",
+                " progress ":" 0.0 "," url ":" http://codigofacilito.com/courses/redux-react"
+            },
+            {
+                " title ":" Snake with HTML5 ",
+                " progress ": "63.0",
+                "url": "http://codigofacilito.com/courses/snake-con-html5"
+            },
+            {
+                "title": "Object Oriented Programming Course with C #",
+                "progress": "4.0" ,
+                "url ":" http://codigofacilito.com/courses/c_sharp"
+            },
+            {
+                "title ":" Professional JavaScript Course ",
+                "progress ":" 32.0 "," url ":" http://codigofacilito.com / courses / javascript-professional"
+            },
+            {
+                "title ":" JavaScript and the DOM ",
+                "progress ":" 6.0 "," url ":" http://codigofacilito.com/courses/javascript-dom"
+            },
+            {
+                "title": "Free javaScript course",
+                "progress": "85.0",
+                "url": "http://codigofacilito.com/courses/javascript"
+            },
+            {
+                "title": "Create a personal site with Gatsby ",
+                " progress ":" 50.0 ",
+                " url ":" http://codigofacilito.com/courses/sitio-persional-gatsby "
+            }
+        ],
+            " finished_courses ": [
+                {
+                    "title ":"Workshop to integrate Google services with React ",
+                    "url ":" http://codigofacilito.com/courses/react-google-apis "
+                }
+            ]
+    },
+    " errors ": []
+}

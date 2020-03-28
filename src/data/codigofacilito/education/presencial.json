@@ -1,0 +1,17 @@
+{
+    "slug": "presencial",
+    "title": "Formación académica",
+    "description": "Formacion académica, grados de estudio e instituciones a las que asistí",
+    "items": [
+        {
+            "name": "Universidad Tecnológica de la Mixteca",
+            "degree": "Ing. en Computación",
+            "score": "7.5"
+        },
+        {
+            "name": "COBAO PLANTEL 13",
+            "degree": "Técnico en Computación",
+            "score": "9.0"
+        }
+    ]
+}
