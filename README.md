@@ -2,4 +2,4 @@
 
 This is a personal web site using Gatsby and tailwindcss framework.
 
-![miSitioYesme](images/mi_sitio.jpg)
+![miSitioYesme](./public/images/mi_sitio.jpg)
