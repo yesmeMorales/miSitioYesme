@@ -64,7 +64,7 @@ export default () => {
   }, [])
 
   return (
-    <div className="max-w-4xl mx-auto mt-12 mb-12 container_repos">
+    <div className="max-w-4xl mx-auto mt-6 mb-12 container_repos">
       <header className="text-center mb-4">
         <h2 className="text-3xl font-bold">Proyectos Personales</h2>
         {/* <p>Colaboracion y Contribución de código</p> */}

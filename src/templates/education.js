@@ -7,7 +7,7 @@ export default props => {
   const pageData = props.data.educationJson
   return (
     <div>
-      <header className="py-12 border-purple-500 border-solid border-t-8 ml-2 ">
+      <header className="py-12 border-purple-500 border-solid border-t-8 ml-2 header_education">
         <div className="max-w-3xl mx-auto">
           <Link to="/" className="uppercase btn-link mt-4 ml-2 ">
             Regresar al inicio
@@ -28,7 +28,7 @@ export default props => {
             </div>
             <div className="flex items-center flex-1 p-8">
               <div className="flex-1">
-                <h3 className="font-semibold">{item.name}</h3>
+                <h3 className="font-semibold mr-4">{item.name}</h3>
                 {item.degree && (
                   <span className="inline-block p-2 radius bg-purple-100 text-purple-700">
                     {item.degree}

@@ -17,7 +17,7 @@ export default props => {
   `)
 
   return (
-    <div className="max-w-4xl mx-auto mt-8 container_nav">
+    <div className="max-w-4xl mx-auto mt-8 container_nav mb-4">
       <h2 className="text-3xl font-bold text-center">
         {" "}
         Conoce sobre mi formación académica

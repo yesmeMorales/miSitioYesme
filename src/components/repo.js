@@ -23,12 +23,12 @@ export default props => (
           href={props.repo.html_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn mr-4 w-5/12 text-center flex justify-around items-center btn_project"
+          className="btn mr-4 w-5/12 text-center flex justify-around items-center btn_project "
         >
           <img
             src="images/github2.svg"
             alt="Icono github"
-            className="w-5 h-5"
+            className="w-5 h-5 mr-2"
           />
           Repositorio
         </a>
@@ -41,7 +41,7 @@ export default props => (
           <img
             src="images/pagina-principal.svg"
             alt="Icono web"
-            className="w-6 h-6"
+            className="w-6 h-6 mr-2"
           />
           Página web
         </a>

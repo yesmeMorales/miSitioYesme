@@ -10,6 +10,7 @@ body {
 
 .app {
   width: 100%;
+  max-width: 1920px;
 }
 
 .container-header {
@@ -38,6 +39,7 @@ body {
 
 .btn_project {
   min-width: 110px;
+  @apply text-sm;
 }
 
 .btn-link {
@@ -84,7 +86,19 @@ body {
   background-size: 700px 150px;
 } */
 
+@media screen and (max-width: 1024px) {
+  .education {
+    width: 32rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .header_education {
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+  }
   .container-header {
     flex-direction: column;
     text-align: center;
@@ -125,7 +139,8 @@ body {
   }
 
   .education {
-    width: 30rem;
+    width: 20rem;
+    height: 170px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -140,7 +155,7 @@ body {
 
   .btn_project {
     font-size: 14px;
-    @apply w-2/5 mt-3 mr-0;
+    @apply w-3/6 mt-3 mr-0;
   }
 
   .repos-list {

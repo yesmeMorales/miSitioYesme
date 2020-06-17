@@ -2,11 +2,12 @@ import React from "react"
 
 export default () => (
   <>
-    <img
+    {/* <img
       src="images/bg-footer-top-desktop.svg"
       className="wave mt-4"
       alt="wave background"
-    />
+    /> */}
+    <div className="wave_footer"></div>
     <div className="footer text-white font-bold block">
       <div className="bg-gray-800 border-gray-800 pb-3">
         <div className="flex justify-center block border-gray-800">
