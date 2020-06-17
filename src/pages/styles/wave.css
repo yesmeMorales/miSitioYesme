@@ -1,0 +1,9 @@
+.wave-content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.wave {
+  width: 100% !important;
+  height: 110px;
+}

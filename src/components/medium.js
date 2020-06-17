@@ -1,37 +1,33 @@
-import React, { Fragment, useState, useEffect } from "react";
-import Posts from "./posts";
-import Post from "./post";
+import React, { Fragment, useState, useEffect } from "react"
+import Posts from "./posts"
+import Post from "./post"
 
-export default (props) => {
-    const [posts, setPosts] = useState([]);
+export default props => {
+  const [posts, setPosts] = useState([])
 
-    useEffect( () => {
-        const data = sessionStorage.getItem('posts');
+  useEffect(() => {
+    const data = sessionStorage.getItem("posts")
 
-        if(data){
-            setPosts(JSON.parse(data));
-        }
+    if (data) {
+      setPosts(JSON.parse(data))
+    }
 
-        let myPosts;
+    let myPosts
 
-        async function getMediumPosts(){
-            const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40Uriel_Hedz");
-            myPosts = await response.json();
-            sessionStorage.setItem('posts', JSON.stringify(myPosts.items));
-            setPosts(myPosts.items);
-        }
-        getMediumPosts();
+    async function getMediumPosts() {
+      const response = await fetch(
+        "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40Uriel_Hedz"
+      )
+      myPosts = await response.json()
+      sessionStorage.setItem("posts", JSON.stringify(myPosts.items))
+      setPosts(myPosts.items)
+    }
+    getMediumPosts()
+  }, [])
 
-    },[]);
-
-    return(
-        <div className="max-w-4xl mx-auto overflow-x-scroll">
-            <Posts
-                data={posts}
-                card={Post}
-                titulo={"Mis publicaciones"}
-            />
-        </div>
-
-    );
+  return (
+    <div className="max-w-4xl mx-auto overflow-x-scroll">
+      <Posts data={posts} card={Post} titulo={"Mis publicaciones"} />
+    </div>
+  )
 }

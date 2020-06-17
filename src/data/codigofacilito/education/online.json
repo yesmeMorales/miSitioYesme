@@ -1,15 +1,61 @@
 {
-    "slug": "online",
-    "title": "Cursos en linea",
-    "description": "Cursos finalizados en plataformas de educación en internet",
-    "items": [
-        {
-            "name": "Gatsby",
-            "url": "https://codigofacilito.com/cursos/sitio-persional-gatsby"
-        },
-        {
-            "name": "Javascript",
-            "url": "https://codigofacilito.com/cursos/javascript"
-        }
-    ]
+  "slug": "online",
+  "title": "Cursos en linea",
+  "description": "Cursos finalizados en plataformas de educación en internet",
+  "items": [
+    {
+      "platform": "C.Facilito",
+      "name": "Javascript",
+      "url": "https://codigofacilito.com/cursos/javascript",
+      "date": "Abr 2020"
+    },
+    {
+      "platform": "C.Facilito",
+      "name": "Gatsby",
+      "url": "https://codigofacilito.com/cursos/sitio-persional-gatsby",
+      "date": "Mar 2020"
+    },
+    {
+      "platform": "Udemy",
+      "name": "C# Intermediate: Classes, Interfaces and OOP",
+      "url": "",
+      "date": "Feb 2020"
+    },
+    {
+      "platform": "Udemy",
+      "name": "The Complete ASP.NET MVC 5 Course",
+      "url": "",
+      "date": "Feb 2020"
+    },
+    {
+      "platform": "Udemy",
+      "name": "C# Basics for Beginners: Learn C# Fundamentals by Coding",
+      "url": "",
+      "date": "Ene 2020"
+    },
+    {
+      "platform": "Udemy",
+      "name": "GIT+GITHub: Todo un sistema de control de versiones de cero",
+      "url": "",
+      "date": "Ene 2020"
+    },
+    {
+      "platform": "Udemy",
+      "name": "Desarrollo Web/HTML5/FTP para profesionales",
+      "url": "",
+      "date": "Nov 2019"
+    },
+    {
+      "platform": "EDteam",
+      "name": "Creación de temas con Drupal 8",
+      "url": "",
+      "date": "Oct 2019"
+    },
+    {
+      "platform": "Udemy",
+      "name": "Desarrollo Web/HTML/CSS3 para profesionales",
+      "url": "",
+      "date": "Oct 2019"
+    }
+  ]
 }
