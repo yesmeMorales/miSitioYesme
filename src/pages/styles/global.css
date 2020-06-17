@@ -155,12 +155,18 @@ body {
 
   .btn_project {
     font-size: 14px;
-    @apply w-3/6 mt-3 mr-0;
+    @apply w-4/6 mt-3 mr-0;
   }
 
   .repos-list {
     columns: 1;
     -moz-columns: 1;
     /* column-rule: 1px solid; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn_project {
+    @apply w-9/12 mt-3 mr-0;
   }
 }
