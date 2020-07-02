@@ -18,7 +18,7 @@ export default props => {
 
   return (
     <div className="max-w-4xl mx-auto mt-8 container_nav mb-4">
-      <h2 className="text-3xl font-bold text-center">
+      <h2 className="text-3xl font-bold text-center sub-education">
         {" "}
         Conoce sobre mi formación académica
       </h2>

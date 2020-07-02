@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <header className="bg-gray-300">
-        <div className="container mx-auto p-6 max-w-4xl ">
+        <div className="container mx-auto p-4 max-w-4xl ">
           <div className="flex justify-center items-center container-header">
             <div className="flex-1 text-header">
               <h1 className="font-bold text-pink-700 text-5xl">

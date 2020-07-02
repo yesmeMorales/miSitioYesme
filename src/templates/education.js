@@ -7,8 +7,8 @@ export default props => {
   const pageData = props.data.educationJson
   return (
     <div>
-      <header className="py-12 border-purple-500 border-solid border-t-8 ml-2 header_education">
-        <div className="max-w-3xl mx-auto">
+      <header className="py-12 border-purple-500 border-solid border-t-8 header_education">
+        <div className="max-w-3xl mx-auto content-education-title">
           <Link to="/" className="uppercase btn-link mt-4 ml-2 ">
             Regresar al inicio
           </Link>
@@ -18,10 +18,10 @@ export default props => {
           <p className="text-xl">{pageData.description}</p>
         </div>
       </header>
-      <ul className="max-w-3xl mx-auto mt-12 mb-12">
+      <ul className="max-w-3xl mx-auto mt-6 mb-12">
         {pageData.items.map((item, index) => (
           <li className="bg-white shadow mt-4 flex block education" key={index}>
-            <div className="flex items-center bg-purple-200">
+            <div className="flex items-center bg-purple-200 content-platform">
               <p className="flex content-center vertical-text tracking-tighter">
                 {item.platform}
               </p>
