@@ -32,10 +32,6 @@ body {
   min-width: 300px;
 }
 
-.content-education-title {
-  min-width: 545px;
-}
-
 .content-platform {
   width: 35px;
 }
@@ -232,5 +228,14 @@ body {
   .icon-social-network img {
     width: 35px;
     height: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  article {
+    width: 18rem;
+  }
+  .education {
+    width: 18rem;
   }
 }

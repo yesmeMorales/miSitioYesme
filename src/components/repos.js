@@ -61,7 +61,7 @@ export default () => {
     }
 
     fetchRepos()
-  }, [reposGood])
+  }, [])
 
   return (
     <div className="max-w-4xl mx-auto mt-6 mb-12 container_repos">

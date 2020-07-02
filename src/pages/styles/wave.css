@@ -41,10 +41,33 @@
   background-position: bottom;
   border-style: none;
 }
+
+@media screen and (max-width: 1920px) {
+  .wave_footer {
+    width: 100%;
+    height: 160px;
+    background-image: url("../../../public/images/bg-footer-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    z-index: 1;
+    bottom: -1px;
+    position: absolute;
+  }
+  .footer {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+  .content-wave {
+    padding-top: 200px;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .wave_footer {
     width: 100%;
-    height: 143px;
+    height: 150px;
     background-image: url("../../../public/images/bg-footer-top-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,7 +143,7 @@
     background-repeat: no-repeat;
     border-style: none;
     background-size: contain;
-    bottom: 0px;
+    bottom: -1px;
   }
   .footer-content {
     margin-bottom: 0.5rem;
