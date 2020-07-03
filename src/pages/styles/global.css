@@ -4,10 +4,16 @@
 
 @tailwind utilities;
 
-body {
+body,
+html {
   @apply bg-gray-100;
-  max-width: 1440px;
-  height: 140vh;
+  /* max-width: 1920px; */
+  min-width: 300px;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  border: 0;
+  /* height: 140vh; */
 }
 
 :root {
@@ -16,10 +22,13 @@ body {
 
 .app {
   width: 100%;
-  max-width: 1440px;
+  /* max-width: 1920px; */
   min-width: 300px;
-  min-height: 100vh;
-  max-height: 130vh;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+  /* min-height: 100vh; */
+  /* max-height: 180vh; */
 }
 
 .container-header {
@@ -32,8 +41,18 @@ body {
   min-width: 300px;
 }
 
+.all-education {
+  /* max-height: 170vh; */
+  min-height: 100%;
+  position: relative;
+}
+
 .content-platform {
   width: 35px;
+}
+
+.content-education-title {
+  min-width: 275px;
 }
 
 .education {
@@ -59,6 +78,7 @@ body {
 }
 
 .btn-link {
+  min-width: 191px;
   @apply bg-green-400 text-white font-bold rounded border-green-700 py-2 px-4 border-b-4;
 }
 
@@ -88,6 +108,8 @@ body {
 .icon-social-network img {
   width: 35px;
   height: 35px;
+  cursor: pointer;
+  outline-style: none;
 }
 
 /* .footer {
@@ -225,9 +247,14 @@ body {
     width: 250px;
     height: 250px;
   }
+
   .icon-social-network img {
     width: 35px;
     height: 35px;
+  }
+
+  .content-education-title {
+    padding: 0 40px;
   }
 }
 
@@ -237,5 +264,8 @@ body {
   }
   .education {
     width: 18rem;
+  }
+  .content-education-title {
+    padding: 0 20px;
   }
 }

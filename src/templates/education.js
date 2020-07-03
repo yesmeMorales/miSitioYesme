@@ -6,7 +6,7 @@ import Footer from "../components/footer"
 export default props => {
   const pageData = props.data.educationJson
   return (
-    <div>
+    <div className="all-education">
       <header className="py-12 border-purple-500 border-solid border-t-8 header_education">
         <div className="max-w-3xl mx-auto content-education-title">
           <Link to="/" className="uppercase btn-link mt-4 ml-2 ">
